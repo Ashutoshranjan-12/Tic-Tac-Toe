@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#95e81a ;
+    text-align: center;
+}
+
+h1{
+    padding-top: 2rem;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #ffffce;
+}
+#reset{
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: darkolivegreen;
+    border-radius: 2rem;
+    border: none;
+    color: antiquewhite;
+}
+#nwebtn{
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: darkolivegreen;
+    border-radius: 2rem;
+    border: none;
+    color: antiquewhite;
+}
+#msg{
+    color: #19c968;
+    font-size: 8vmin;
+}
+
+.msg-container{
+    height:40vmin ;
+}
+
+.hide{
+    display: none;
+}
+
+/* Popup styling */
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    z-index: 1000;
+    width: 250px;
+}
+
+.popup-content {
+    font-size: 1.5rem;
+    color: darkgreen;
+}
+
+.popup button {
+    padding: 10px;
+    margin-top: 10px;
+    background: darkolivegreen;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Hide popup initially */
+.hide {
+    display: none;
+}

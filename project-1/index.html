@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <div class="msg-container hide">
+        <p id="msg">Winner</p>
+        <button id="nwebtn">New game</button>
+    </div> -->
+    <h1><u><b>Tic Tac Toe</b></u></h1>
+    <div class="container">
+        <div class="game">
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+        </div>
+    </div>
+    <!-- Winner Popup Modal -->
+<div id="popup" class="popup hide">
+    <div class="popup-content">
+        <p id="winner-msg">Winner!</p>
+        <button id="close-popup">Play Again</button>
+    </div>
+</div>
+
+<!-- Include Confetti JS Library -->
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.3.1/dist/confetti.browser.min.js"></script>
+
+    <div class="msg-container hide">
+        <p id="msg">Winner</p>
+        <button id="nwebtn">New game</button>
+    </div>
+    <button id="reset">Reset game</button>
+    <!-- <button id="reset">Reset game</button> -->
+    <script src="script.js"></script>
+</body>
+</html>
